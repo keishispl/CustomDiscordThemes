@@ -1,0 +1,67 @@
+/**
+ * @name Splatoon3
+ * @author keishispl
+ * @version 3.0
+ * @description A theme based off from Splatoon 3
+ * @website https://keishispl.github.io/fontslibrary/splatfont2
+*/
+
+@import url("https://keishispl.github.io/CustomDiscordThemes/keishibase.theme.css");
+
+/* BlackBox tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Base */
+:root {
+  /* Background image */
+  --background-image: url('https://keishispl.github.io/img/wallpaper/background_dark.jpeg'); /* Main background */
+  --background-image-blur: 0px; /* Blur intensity of background */
+  --background-image-size: cover; /* Size of the background, cover or contain */
+  --background-image-position: center; /* Position of background */
+
+  /* Popout & Modal */
+  --popout-modal-image: rgba(5, 5, 5, 0.75); /* Background for popouts and modals */
+  --popout-modal-blur: 5px; /* Blur intensity of popouts */
+  --popout-modal-size: cover; /* Size of the popout/modal, cover or contain */
+  --popout-modal-position: center; /* Position of popout/modal */
+
+  /* Brightness */
+  --serverlist-brightness: 0; /* Brightness for serverlist | 0 - 1 (decimals allowed) */
+  --left-brightness: 0; /* Channels and DM list brightness | 0 - 1 (decimals allowed) */
+  --middle-brightness: 0; /* Chat brightness | 0 - 1 (decimals allowed) */
+  --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) */
+  --popout-modal-brightness: 0; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) */
+
+  /* Gradient & Tint */
+  --gradient-primary: 169, 173, 81; /* RGB */
+  --gradient-secondary: 74, 66, 235; /* RGB */
+  --gradient-direction: 270deg; /* Direction */
+
+  --tint-colour: 255,51,159; /* Colour of tint */
+  --tint-brightness: 0; /* Brightness of tint | 0 - 1 (decimals allowed) */
+
+  /* Others */
+  --window-padding: 0px; /* Spacing around the Discord window */
+  --window-roundness: 10px; /* Roundness of Discord */
+  --scrollbar-colour: rgba(255,255,255,0.05); /* Color of scrollbar */
+  --link-colour: rgb(117, 59, 255);
+
+  /* Fonts */
+  @import url('https://keishispl.github.io/fontslibrary/splatfont2/use.css');
+  --font: 'Splatfont2';
+
+  /* Do not touch */
+  --update-notice-1: none;
+
+}
+
+/* Mentions */
+--mention-background-banner: 239, 245, 122, 0.1; /* Color of the mentions background banner (RGBA) */
+--mention-background-sidebar: 74, 66, 235, 0.5;  /* Color of the mentions sidebar line (RGBA) */
+
+/* Discord Button Color */
+--discord-btn-normal: 87, 45, 186;
+
+/* Selection */
+--selection-color-text: white; /* Highlighted text color */
+--selection-color-background: rgba(39, 186, 149, 0.25); /* Highlighted text background color */
