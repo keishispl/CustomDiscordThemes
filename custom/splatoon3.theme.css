@@ -52,6 +52,12 @@
 
   /* Do not touch */
   --update-notice-1: none;
+  html, body, span, h1, h2, h3, div {
+    font-family: var(--font);
+  }
+  .message-content, .user-name {
+    font-family: var(--font);
+  }
 
 }
 
@@ -65,3 +71,30 @@
 /* Selection */
 --selection-color-text: white; /* Highlighted text color */
 --selection-color-background: rgba(39, 186, 149, 0.25); /* Highlighted text background color */
+
+/* Do not touch */
+::selection {
+    color: var(--selection-color-text);
+    background: var(--selection-color-background);
+}
+::-moz-selection {
+    color: var(--selection-color-text);
+    background: var(--selection-color-background);
+}
+
+.lookFilled__19298.colorBrand_b2253e {
+    color: var(--white-500);
+    background: rgb(var(--discord-btn-normal));
+}
+.lookFilled__19298.colorBrand_b2253e:hover {
+    background-color: rgb(var(--discord-btn-normal));
+}
+.lookFilled__19298.colorBrand_b2253e:active {
+    background-color: rgb(var(--discord-btn-normal));
+}
+.lookFilled__19298.colorBrand_b2253e .spinnerItem_c07231 {
+    background-color: rgb(var(--discord-btn-normal));
+}
+.lookFilled__19298.colorBrand_b2253e:disabled,.lookFilled__19298.colorBrand_b2253e[aria-disabled=true] {
+    background-color: rgb(var(--discord-btn-normal));
+}

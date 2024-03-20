@@ -1656,36 +1656,6 @@ html.platform-osx .scroller-2TZvBN {
   }
 }
 
-::selection {
-    color: var(--selection-color-text);
-    background: var(--selection-color-background);
-}
-::-moz-selection {
-    color: var(--selection-color-text);
-    background: var(--selection-color-background);
-}
---selection-color-text: white;
---selection-color-background: rgba(39, 186, 149, 0.25);
-
-
-.lookFilled__19298.colorBrand_b2253e {
-    color: var(--white-500);
-    background: rgb(var(--discord-btn-normal));
-}
-.lookFilled__19298.colorBrand_b2253e:hover {
-    background-color: rgb(var(--discord-btn-normal));
-}
-.lookFilled__19298.colorBrand_b2253e:active {
-    background-color: rgb(var(--discord-btn-normal));
-}
-.lookFilled__19298.colorBrand_b2253e .spinnerItem_c07231 {
-    background-color: rgb(var(--discord-btn-normal));
-}
-.lookFilled__19298.colorBrand_b2253e:disabled,.lookFilled__19298.colorBrand_b2253e[aria-disabled=true] {
-    background-color: rgb(var(--discord-btn-normal));
-}
---discord-btn-normal: 87, 45, 186;
-
 #app-mount .mentioned__58017 {
   background: rgba(var(--mention-background-banner)) !important;
 }
@@ -1697,10 +1667,3 @@ html.platform-osx .scroller-2TZvBN {
 }
 --mention-background-banner: 239, 245, 122, 0.1;
 --mention-background-sidebar: 74, 66, 235, 0.5;
-
-html, body, span, h1, h2, h3, div {
-  font-family: var(--font);
-}
-.message-content, .user-name {
-  font-family: var(--font);
-}
